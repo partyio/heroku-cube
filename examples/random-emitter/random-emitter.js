@@ -15,7 +15,7 @@ var start = Date.now() + options["offset"],
 
 while (start < stop) {
   emitter.send({
-    type: "signup",
+    type: "random",
     time: new Date(start),
     data: {
       value: value += Math.random() - .5

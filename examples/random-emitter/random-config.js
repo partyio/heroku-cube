@@ -7,9 +7,9 @@ module.exports = {
   // For example, if the offset is minus four hours, then the first event that
   // the random emitter sends will be four hours old. It will then generate more
   // recent events based on the step interval, all the way up to the duration.
-  "offset": -2 * 60 * 60 * 1000,
-  "duration": 2 * 60 * 60 * 1000,
+  "offset": -4 * 60 * 60 * 1000,
+  "duration": 8 * 60 * 60 * 1000,
 
   // The time between random events.
-  "step": 10 * 10
+  "step": 1000 * 10
 };
