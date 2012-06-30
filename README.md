@@ -57,7 +57,7 @@ In summary, just set a local MONGOLAB_URI variable locally and point it to somet
 Didn't work for you? Let me know via a Github issue.
 
 ### Credits
-Josh Dzielak and (party.io)[http://party.io]
+Josh Dzielak and [party.io](http://party.io).
 
 A big thanks to Mike Bostock for creating Cube and Square for open sourcing it.
 
