@@ -1,0 +1,4 @@
+alias evaluator="PORT=3000 EVAULATOR_APP=1 MONGOLAB_URI=mongodb://localhost:27017/cube_development foreman start"
+alias collector="PORT=3001 COLLECTOR_APP=1 MONGOLAB_URI=mongodb://localhost:27017/cube_development foreman start"
+alias editevents="vi ./examples/random-emitter/random-config.js"
+alias sendevents="COLLECTOR_URL=http://localhost:3001/ node ./examples/random-emitter/random-emitter.js"
