@@ -1,5 +1,5 @@
 ### heroku-cube
-A boilerplate for deploying Square's Cube time-series visualizer to Heroku.
+A boilerplate for deploying [Square's](https://squareup.com/) [Cube](http://square.github.com/cube/) time-series visualizer to [Heroku](http://heroku.com).
 
 ### Instructions
 
@@ -57,7 +57,7 @@ In summary, just set a local MONGOLAB_URI variable locally and point it to somet
 Didn't work for you? Let me know via a Github issue.
 
 ### Credits
-Josh Dzielak
+Josh Dzielak and (party.io)[http://party.io]
 
 A big thanks to Mike Bostock for creating Cube and Square for open sourcing it.
 
