@@ -18,8 +18,8 @@ Create two Heroku apps - one for the evaluator and one for the collector. (make 
 
 Set up your git remotes to the Heroku apps, again one for the evaluator and one for the collector:
 
-    git remote add my-collector-app git@heroku.com/my-collector-app.git
-    git remote add my-evaluator-app git@heroku.com/my-evaluator-app.git
+    git remote add my-collector-app git@heroku.com:my-collector-app.git
+    git remote add my-evaluator-app git@heroku.com:my-evaluator-app.git
 
 Add configuration variable so the apps know which is which:
 
