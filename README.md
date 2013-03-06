@@ -53,6 +53,10 @@ Check out the aliases in .projectrc to get an idea for how to use this boilerpla
 In summary, just set a local MONGOLAB_URI variable locally and point it to something like
 `mongodb://localhost:27017/cube_development`. Then use Heroku's foreman to start the apps.
 
+### Misc
+Note that Heroku doesn't support websockets, so you'll need to use the HTTP endpoints if you deploy there.
+If you need websockets, [this issue](https://github.com/partyio/heroku-cube/issues/2) talks about using heroku-cube with nodejitsu.
+
 ### Issues
 Didn't work for you? Let me know via a Github issue.
 
